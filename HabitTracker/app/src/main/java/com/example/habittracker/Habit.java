@@ -1,10 +1,11 @@
 package com.example.habittracker;
 
+import java.io.Serializable;
 import java.time.DayOfWeek;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Habit {
+public class Habit implements Serializable {
 
     private String habitName;
     private ArrayList<DayOfWeek> weekdays;
