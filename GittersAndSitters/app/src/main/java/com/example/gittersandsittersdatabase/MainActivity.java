@@ -5,11 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-<<<<<<< HEAD
 import android.provider.ContactsContract;
-=======
 import android.util.Log;
->>>>>>> 7cfe8a6117e072d6fb4e81625d96b5d434c699d1
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -162,11 +159,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         });
 
                         //NOTE: Changed from Profile
-<<<<<<< HEAD
+
                         startActivity(new Intent(MainActivity.this, ProfileActivity.class));
-=======
+
                         //startActivity(new Intent(MainActivity.this,ProfileActivity.class));
->>>>>>> 7cfe8a6117e072d6fb4e81625d96b5d434c699d1
+
                     }else{
                         user.sendEmailVerification();
                         Toast.makeText(MainActivity.this, "Check your email to verify your account!", Toast.LENGTH_LONG).show();
